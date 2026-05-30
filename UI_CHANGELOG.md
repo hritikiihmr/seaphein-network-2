@@ -436,3 +436,88 @@ Fix the header navigation hover/active underline alignment.
 ### Revert Instructions
 1. Replace `css/style.css` with `backups/ui-nav-underline-20260530-154437/style.css.bak`.
 2. Replace `UI_CHANGELOG.md` with `backups/ui-nav-underline-20260530-154437/UI_CHANGELOG.md.bak` if you want to undo this documentation entry.
+
+## 2026-05-30 17:06:49 +05:30
+
+### Files Changed
+- `css/style.css`
+- `css/responsive.css`
+- `UI_CHANGELOG.md`
+
+### Short Reason For Change
+Enhance the Events & Webinars page UI to match the modern card and section styling used across the updated site.
+
+### UI Improvements Done
+- Improved the Events/Webinars tab navigation with a centered pill control, icon spacing, active state, hover state, and keyboard focus styling.
+- Refined the page content section background and spacing below the shared page title banner.
+- Improved event and webinar cards with equal-height flex layout, modern white surfaces, subtle brand-blue accents, rounded image frames, shadows, and bottom-aligned buttons.
+- Improved event image treatment with contained image presentation and consistent frame height.
+- Improved date, title, and button hierarchy for better scanning on desktop/tablet.
+- Added responsive CSS rules for smaller screens, while leaving final mobile visual confirmation to user review as requested.
+- Preserved all event/webinar text, dates, image paths, tab labels, links, onclick handlers, routes, font family, and brand colors.
+
+### Backup File Path
+- `backups/ui-events-page-20260530-170649/style.css.bak`
+- `backups/ui-events-page-20260530-170649/responsive.css.bak`
+- `backups/ui-events-page-20260530-170649/UI_CHANGELOG.md.bak`
+- `backups/ui-events-page-20260530-170649/UI_REFERENCE.md.bak`
+
+### Revert Instructions
+1. Replace `css/style.css` with `backups/ui-events-page-20260530-170649/style.css.bak`.
+2. Replace `css/responsive.css` with `backups/ui-events-page-20260530-170649/responsive.css.bak`.
+3. Replace `UI_CHANGELOG.md` with `backups/ui-events-page-20260530-170649/UI_CHANGELOG.md.bak` if you want to undo this documentation entry.
+
+## 2026-05-30 17:16:18 +05:30
+
+### Files Changed
+- `css/style.css`
+- `css/responsive.css`
+- `UI_CHANGELOG.md`
+
+### Short Reason For Change
+Enhance the Collaboration among Member Institutions page UI to match the updated premium page styling.
+
+### UI Improvements Done
+- Improved the MOU section heading with centered spacing and a brand underline.
+- Restyled the two-column MOU table with a framed white surface, rounded corners, shadow, and stronger teal table header.
+- Converted institution cells into card-like blocks with better spacing, borders, shadows, and consistent logo presentation.
+- Improved logo containment so mixed institution logos align more consistently.
+- Added responsive rules for table overflow and smaller screen spacing, with final mobile visual confirmation left to user review as requested.
+- Preserved all institution names, table structure, links, targets, image paths, page title text, font family, and brand colors.
+
+### Backup File Path
+- `backups/ui-collaboration-members-20260530-171618/style.css.bak`
+- `backups/ui-collaboration-members-20260530-171618/responsive.css.bak`
+- `backups/ui-collaboration-members-20260530-171618/UI_CHANGELOG.md.bak`
+- `backups/ui-collaboration-members-20260530-171618/UI_REFERENCE.md.bak`
+
+### Revert Instructions
+1. Replace `css/style.css` with `backups/ui-collaboration-members-20260530-171618/style.css.bak`.
+2. Replace `css/responsive.css` with `backups/ui-collaboration-members-20260530-171618/responsive.css.bak`.
+3. Replace `UI_CHANGELOG.md` with `backups/ui-collaboration-members-20260530-171618/UI_CHANGELOG.md.bak` if you want to undo this documentation entry.
+
+## 2026-05-30 17:26:00 +05:30
+
+### Files Changed
+- `css/style.css`
+- `css/responsive.css`
+- `UI_CHANGELOG.md`
+
+### Short Reason For Change
+Increase collaboration page institution logo visibility after the logo cards appeared too small.
+
+### UI Improvements Done
+- Enlarged the institution logo frame size in the Collaboration among Member Institutions table.
+- Increased the maximum logo render size while preserving the existing image paths and proportions.
+- Adjusted responsive logo limits so smaller screens still keep the table readable without horizontal layout breakage beyond the intended table scroll.
+- Preserved all institution names, links, table labels, font family, and brand colors.
+
+### Backup File Path
+- `backups/ui-collaboration-logo-size-20260530-172600/style.css.bak`
+- `backups/ui-collaboration-logo-size-20260530-172600/responsive.css.bak`
+- `backups/ui-collaboration-logo-size-20260530-172600/UI_CHANGELOG.md.bak`
+
+### Revert Instructions
+1. Replace `css/style.css` with `backups/ui-collaboration-logo-size-20260530-172600/style.css.bak`.
+2. Replace `css/responsive.css` with `backups/ui-collaboration-logo-size-20260530-172600/responsive.css.bak`.
+3. Replace `UI_CHANGELOG.md` with `backups/ui-collaboration-logo-size-20260530-172600/UI_CHANGELOG.md.bak` if you want to undo this documentation entry.

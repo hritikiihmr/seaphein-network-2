@@ -329,6 +329,18 @@ section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn {
 section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn h3 {
     font-size: 28px;
 }
+.tab-navigation-wrapper {
+    padding-top: 24px;
+}
+section.committee-members {
+    padding: 36px 0 62px;
+}
+section.committee-members .evetn-card-page {
+    min-height: 410px;
+}
+section.committee-members .evetn-card-page .even-img img {
+    height: 176px;
+}
 .patner-content h3.title,
 .evnt-content h3.title {
     font-size: 28px;
@@ -760,6 +772,89 @@ footer .contact-us {
 .events .slick-prev,
 .events .slick-next {
     display: none !important;
+}
+.tab-navigation-wrapper {
+    padding: 20px 0 8px;
+}
+.tab-navigation {
+    width: 100%;
+    max-width: calc(100vw - 30px);
+    gap: 8px;
+    padding: 6px;
+}
+.tab-btn {
+    min-width: 0;
+    flex: 1 1 0;
+    padding: 11px 12px;
+    font-size: 14px;
+}
+section.committee-members {
+    padding: 28px 0 44px;
+}
+section.committee-members .row.padding-20 {
+    margin-left: 0;
+    margin-right: 0;
+    row-gap: 22px;
+}
+section.committee-members .row.padding-20 > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+section.committee-members .evetn-card-page {
+    max-width: calc(100vw - 30px);
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 14px 18px;
+    border-radius: 18px;
+}
+section.committee-members .evetn-card-page .even-img img {
+    height: 172px;
+}
+section.committee-members .evetn-card-page ul {
+    min-height: 0;
+    font-size: 12px;
+}
+section.committee-members .evetn-card-page h4 {
+    min-height: 0;
+    font-size: 19px;
+}
+section.committee-members .col-lg-12 > h2 {
+    max-width: calc(100vw - 30px);
+    margin-bottom: 22px;
+    font-size: 24px;
+}
+section.committee-members .padding-20:has(.styled-table) {
+    max-width: calc(100vw - 30px);
+    border-radius: 16px;
+}
+section.committee-members .styled-table {
+    min-width: 640px;
+    border-radius: 16px;
+}
+section.committee-members .styled-table thead th {
+    padding: 14px 16px;
+    font-size: 14px;
+}
+section.committee-members .styled-table tbody td {
+    padding: 12px;
+}
+section.committee-members .committee-members-data {
+    min-height: 150px;
+    padding: 18px 14px;
+}
+section.committee-members .committee-members-data h4 {
+    min-height: 0;
+    font-size: 13px;
+}
+section.committee-members .committee-members-data a {
+    min-width: 140px;
+    min-height: 90px;
+    padding: 12px;
+}
+section.committee-members .committee-members-data img {
+    max-width: 128px;
+    max-height: 76px;
 }
 section.about-us:not(.ws-section-spacing) .padding-20 {
     width: auto;
