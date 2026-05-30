@@ -356,3 +356,83 @@ Reduce the shared inner-page title banner height after review showed the enhance
 2. Replace `css/responsive.css` with `backups/ui-shared-page-title-compact-20260530-131900/responsive.css.bak`.
 3. Replace `UI_CHANGELOG.md` with `backups/ui-shared-page-title-compact-20260530-131900/UI_CHANGELOG.md.bak` if you want to undo this documentation entry.
 4. Replace `UI_REFERENCE.md` with `backups/ui-shared-page-title-compact-20260530-131900/UI_REFERENCE.md.bak` if needed; this compact sizing change did not require a new reference-rule update.
+
+## 2026-05-30 15:10:41 +05:30
+
+### Files Changed
+- `css/style.css`
+- `css/responsive.css`
+- `UI_CHANGELOG.md`
+
+### Short Reason For Change
+Enhance the About Us page content presentation for desktop, tablet, and mobile screens.
+
+### UI Improvements Done
+- Added scoped styling for the About Us content section below the shared title banner.
+- Converted the plain content blocks into polished white cards with a subtle brand-blue accent rail, border, shadow, and soft background treatment.
+- Improved heading hierarchy, spacing, paragraph line-height, and reading rhythm.
+- Added responsive rules for tablet and mobile so cards remain contained, readable, and free from horizontal clipping.
+- Preserved all About Us text, headings, sequence, markup, font family, links, routes, and brand colors.
+
+### Backup File Path
+- `backups/ui-about-content-20260530-151041/style.css.bak`
+- `backups/ui-about-content-20260530-151041/responsive.css.bak`
+- `backups/ui-about-content-20260530-151041/UI_CHANGELOG.md.bak`
+- `backups/ui-about-content-20260530-151041/UI_REFERENCE.md.bak`
+
+### Revert Instructions
+1. Replace `css/style.css` with `backups/ui-about-content-20260530-151041/style.css.bak`.
+2. Replace `css/responsive.css` with `backups/ui-about-content-20260530-151041/responsive.css.bak`.
+3. Replace `UI_CHANGELOG.md` with `backups/ui-about-content-20260530-151041/UI_CHANGELOG.md.bak` if you want to undo this documentation entry.
+
+## 2026-05-30 15:31:02 +05:30
+
+### Files Changed
+- `css/style.css`
+- `css/responsive.css`
+- `UI_CHANGELOG.md`
+
+### Short Reason For Change
+Update the profile detail page UI for `dr-sd-gupta.html` and `prof-pr-sodhani.html` to match the polished page style used elsewhere.
+
+### UI Improvements Done
+- Added shared scoped styling for profile detail pages using the existing `section.about-us` portrait-and-biography layout.
+- Improved the portrait column with a soft light-blue panel, circular image treatment, white border, and subtle shadow.
+- Improved the biography column with a clean white card, better spacing, clearer heading/role hierarchy, and readable paragraph rhythm.
+- Added responsive stacking rules so portrait and biography cards work cleanly on smaller screens.
+- Adjusted long mobile page-title text to wrap safely instead of clipping.
+- Preserved all profile text, headings, image paths, links, routes, markup, font family, and brand colors.
+
+### Backup File Path
+- `backups/ui-profile-detail-pages-20260530-153102/style.css.bak`
+- `backups/ui-profile-detail-pages-20260530-153102/responsive.css.bak`
+- `backups/ui-profile-detail-pages-20260530-153102/UI_CHANGELOG.md.bak`
+- `backups/ui-profile-detail-pages-20260530-153102/UI_REFERENCE.md.bak`
+
+### Revert Instructions
+1. Replace `css/style.css` with `backups/ui-profile-detail-pages-20260530-153102/style.css.bak`.
+2. Replace `css/responsive.css` with `backups/ui-profile-detail-pages-20260530-153102/responsive.css.bak`.
+3. Replace `UI_CHANGELOG.md` with `backups/ui-profile-detail-pages-20260530-153102/UI_CHANGELOG.md.bak` if you want to undo this documentation entry.
+
+## 2026-05-30 15:44:37 +05:30
+
+### Files Changed
+- `css/style.css`
+- `UI_CHANGELOG.md`
+
+### Short Reason For Change
+Fix the header navigation hover/active underline alignment.
+
+### UI Improvements Done
+- Changed the navigation underline pseudo-element to use centered absolute positioning.
+- Kept the underline inside the existing nav pill while aligning it evenly below the text.
+- Applied the same alignment for hover, focus, and active menu states.
+- Preserved all menu text, links, colors, font family, and header behavior.
+
+### Backup File Path
+- `backups/ui-nav-underline-20260530-154437/style.css.bak`
+- `backups/ui-nav-underline-20260530-154437/UI_CHANGELOG.md.bak`
+
+### Revert Instructions
+1. Replace `css/style.css` with `backups/ui-nav-underline-20260530-154437/style.css.bak`.
+2. Replace `UI_CHANGELOG.md` with `backups/ui-nav-underline-20260530-154437/UI_CHANGELOG.md.bak` if you want to undo this documentation entry.

@@ -305,6 +305,30 @@ section.contact-us .contact-info {
 .home-leadership-grid .about-contetn h3 {
     font-size: 24px;
 }
+section.about-us:not(.ws-section-spacing) {
+    padding: 46px 0 54px;
+}
+section.about-us:not(.ws-section-spacing) .padding-20 {
+    padding: 28px 28px 30px;
+}
+section.about-us:not(.ws-section-spacing) h3 {
+    font-size: 27px;
+}
+section.about-us:not(.ws-section-spacing) h5 {
+    font-size: 18px;
+}
+section.about-us:not(.ws-section-spacing) .about-img.about-contetn {
+    padding: 30px 22px;
+}
+section.about-us:not(.ws-section-spacing) .about-img.about-contetn img {
+    width: min(220px, 78%);
+}
+section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn {
+    padding: 32px 30px;
+}
+section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn h3 {
+    font-size: 28px;
+}
 .patner-content h3.title,
 .evnt-content h3.title {
     font-size: 28px;
@@ -448,6 +472,76 @@ section.ws-section-spacing.events {
 .home-leadership-grid .about-contetn p {
     line-height: 1.7;
 }
+section.about-us:not(.ws-section-spacing) {
+    padding: 36px 0 44px;
+    overflow: hidden;
+}
+section.about-us:not(.ws-section-spacing) .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+section.about-us:not(.ws-section-spacing) [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 0;
+}
+section.about-us:not(.ws-section-spacing) .col-lg-4 {
+    margin-bottom: 22px;
+}
+section.about-us:not(.ws-section-spacing) .padding-20 {
+    width: auto;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 20px 26px;
+    border-radius: 16px;
+}
+section.about-us:not(.ws-section-spacing) .padding-20::before {
+    top: 20px;
+    height: calc(100% - 40px);
+}
+section.about-us:not(.ws-section-spacing) h3 {
+    font-size: 25px;
+}
+section.about-us:not(.ws-section-spacing) h5 {
+    font-size: 17px;
+    line-height: 1.45;
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+section.about-us:not(.ws-section-spacing) p {
+    font-size: 15px;
+    line-height: 1.85;
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    text-align: left;
+    white-space: normal;
+}
+section.about-us:not(.ws-section-spacing) .about-img.about-contetn {
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 28px 20px;
+}
+section.about-us:not(.ws-section-spacing) .about-img.about-contetn img {
+    width: 170px !important;
+    height: 170px;
+    border-width: 7px;
+}
+section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn {
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 28px 22px 30px;
+    border-radius: 18px;
+}
+section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn h3 {
+    font-size: 25px;
+}
+section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn h4 {
+    font-size: 17px;
+}
 .patner-content h3.title,
 .evnt-content h3.title {
     font-size: 22px;
@@ -559,8 +653,11 @@ footer .contact-us {
     /* padding: 0px; */
 }
 .page-title-area .page-title-content h2 {
-    font-size: 28px;
+    max-width: 100%;
+    font-size: 24px;
     padding-bottom: 11px;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 .page-title-area .page-title-content h2::after {
     width: 50px;
@@ -663,6 +760,33 @@ footer .contact-us {
 .events .slick-prev,
 .events .slick-next {
     display: none !important;
+}
+section.about-us:not(.ws-section-spacing) .padding-20 {
+    width: auto;
+    max-width: calc(100vw - 24px);
+    padding: 22px 16px 24px 18px;
+}
+section.about-us:not(.ws-section-spacing) h3 {
+    font-size: 23px;
+}
+section.about-us:not(.ws-section-spacing) h5 {
+    font-size: 16px;
+    width: 100%;
+}
+section.about-us:not(.ws-section-spacing) p {
+    font-size: 14px;
+    line-height: 1.8;
+    width: 100%;
+}
+section.about-us:not(.ws-section-spacing) .about-img.about-contetn,
+section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn {
+    max-width: calc(100vw - 24px);
+}
+section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn {
+    padding: 24px 18px 26px;
+}
+section.about-us:not(.ws-section-spacing) .col-lg-4 + .col-lg-8 .about-contetn h3 {
+    font-size: 23px;
 }
 }
 
