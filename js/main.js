@@ -25,6 +25,19 @@ Author:         Company Name
   });
 
   /*====================================
+      active menu js
+    ======================================*/
+  var currentPage = window.location.pathname.split('/').pop() || 'index.html';
+  $('.navbar-nav .nav-item').removeClass('active');
+  $('.navbar-nav .nav-item a').each(function () {
+    var linkPage = ($(this).attr('href') || '').split('/').pop();
+    if (linkPage === currentPage) {
+      $(this).closest('.nav-item').addClass('active');
+      $(this).parents('.nav-item').last().addClass('active');
+    }
+  });
+
+  /*====================================
                 One Page Scroll
     ======================================*/
 
@@ -32,9 +45,16 @@ Author:         Company Name
   $('.navbar-nav .nav-item a').on('click', function (e) {
     // Define variable of the clicked »a« element (»this«) and get its href value.
     var href = $(this).attr('href');
+    if (!href || href.charAt(0) !== '#') {
+      return;
+    }
+    var $target = $(href);
+    if (!$target.length) {
+      return;
+    }
     // Run a scroll animation to the position of the element which has the same id like the href value.
     $('html, body').animate({
-      scrollTop: $(href).offset().top
+      scrollTop: $target.offset().top
     }, '300');
     // Prevent the browser from showing the attribute name of the clicked link in the address bar
     e.preventDefault();

@@ -33,6 +33,34 @@
 }
 }
 
+@media(max-width: 1199px){
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+}
+a.nav-link {
+    padding: 11px 10px !important;
+}
+.same-section-spacing,
+.ws-section-spacing,
+.section-spacing,
+.Leadership-award {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.patnet-logo {
+    min-height: 410px;
+}
+.contact-us .contact-info {
+    margin-left: 0;
+}
+.one-time .patnet-logo {
+    min-height: 430px;
+}
+.mid-socail ul {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+}
+
 @media(max-width: 1280px){
 .main-div {
     height: auto;
@@ -46,6 +74,80 @@
 .main-div {
     background-position: center;
     height: auto;
+}
+.header-fixed.header-one {
+    padding: 12px;
+}
+ul.navbar-nav.mr-auto.text-center {
+    gap: 2px 4px;
+}
+.row.single-about {
+    min-height: 340px;
+}
+.about-contetn {
+    padding: 42px 24px;
+}
+.evetn-card,
+.evetn-card-page,
+.patnet-logo,
+.team-cie,
+.website-content.team-page,
+.committee-members .website-content.team-page {
+    min-height: 0;
+}
+.contact-us .contact-form,
+.contact-us .contact-info {
+    padding: 24px;
+}
+.testimonials-slider .about-img img {
+    width: 200px !important;
+    height: 200px;
+}
+.home-leadership-grid {
+    gap: 22px;
+}
+.home-leadership-grid .row.single-about {
+    padding: 34px 24px 32px;
+}
+.home-leadership-grid .about-img img {
+    width: 156px !important;
+    height: 156px;
+}
+.one-time.slick-initialized .slick-slide {
+    margin: 0 10px;
+}
+.one-time .patnet-logo {
+    min-height: 420px;
+    padding: 22px 18px 20px;
+}
+.evnt-content {
+    margin-bottom: 24px;
+}
+.events .col-lg-3,
+.events .col-lg-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.evnt-content {
+    min-height: 0;
+    padding: 28px 28px 34px;
+    text-align: center;
+}
+.events .slick-prev,
+.events .slick-next {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
+.events .slick-prev {
+    left: -6px;
+}
+.events .slick-next {
+    left: auto;
+    right: -6px;
+}
+.evnt-slider .evetn-card {
+    min-height: 370px;
 }
 .owl-nav {
     display: none;
@@ -102,8 +204,23 @@ section.ws-section-spacing.events {
 .slicknav_brand img {
     width: 65%;
 }
+.slicknav_menu {
+    box-shadow: 0 10px 24px rgba(4, 41, 58, 0.16);
+}
+.slicknav_nav {
+    padding: 8px 0 12px;
+}
+.slicknav_nav a {
+    border-radius: 8px;
+}
 .top-socail {
     text-align: center;
+}
+.top-socail ul {
+    justify-content: center;
+}
+.top-socail ul li a img {
+    margin: 10px 4px;
 }
 .main-div {
     height: auto;
@@ -123,12 +240,94 @@ section.ws-section-spacing.events {
 .owl-nav {
     display: none;
 }
+.page-title-area {
+    min-height: 132px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+.page-title-area .page-title-content {
+    padding: 15px 22px 17px;
+    border-radius: 16px;
+}
+.same-section-spacing,
+.ws-section-spacing,
+.section-spacing,
+.Leadership-award {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.row.single-about {
+    margin: 0;
+    border-radius: 18px;
+}
+.patner-content,
+.center-title {
+    padding-bottom: 24px;
+}
+.contact-us .contact-form {
+    margin-bottom: 24px;
+}
+section.contact-us .row.padding-20 > .col-lg-8,
+section.contact-us .row.padding-20 > .col-lg-4 {
+    order: initial;
+}
+section.contact-us .contact-info {
+    margin-right: 0;
+    margin-bottom: 24px;
+}
+.map-area {
+    padding-bottom: 44px;
+}
+.map-area iframe {
+    height: 360px;
+}
+.testimonials-slider .row.single-about {
+    max-width: calc(100% - 24px);
+}
+.testimonials-slider .about-img {
+    min-height: 230px;
+    padding-top: 24px;
+}
+.testimonials-slider .about-img img {
+    width: 176px !important;
+    height: 176px;
+}
+.testimonials-slider .about-contetn {
+    padding: 24px 24px 32px;
+}
+.testimonials-slider .about-contetn h3 {
+    font-size: 26px;
+}
+.home-leadership-grid {
+    grid-template-columns: 1fr;
+    max-width: 620px;
+}
+.home-leadership-grid .about-contetn h3 {
+    font-size: 24px;
+}
+.patner-content h3.title,
+.evnt-content h3.title {
+    font-size: 28px;
+}
+.one-time .patnet-logo {
+    min-height: 390px;
+}
+.one-time .patent-logo-inner {
+    min-height: 150px;
+}
+.mid-socail ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 
 }
 
 @media(max-width: 766px){
-    .about-contetn {
+.about-contetn {
     padding: 30px 0;
+}
+.about-contetn {
+    padding: 30px 20px;
+    text-align: center;
 }
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
     display: none;
@@ -152,6 +351,181 @@ section.ws-section-spacing.events {
     width: 42% !important;
     margin: 0 auto;
 }
+.evetn-card,
+.evetn-card-page,
+.media-room-box,
+.Leadership-award-box,
+.public-logos-box,
+.public-logos-boxbhutan,
+.award-card,
+.patnet-logo {
+    margin-bottom: 22px;
+}
+.even-img img {
+    height: 210px;
+}
+.website-content p,
+.committee-members .website-content p {
+    min-height: 0;
+}
+.team-cie img {
+    height: 260px;
+}
+.contact-us .contact-form h2,
+.contact-us .contact-info h2,
+.contact-us .contact-info h3 {
+    font-size: 30px;
+}
+.contact-us .contact-form,
+.contact-us .contact-info {
+    width: calc(100vw - 30px);
+    max-width: calc(100vw - 30px);
+    overflow: hidden;
+}
+.contact-us .row,
+.contact-us .contact-form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.contact-us [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+}
+.contact-us .form-control {
+    width: calc(100vw - 80px);
+    min-width: 0;
+    max-width: calc(100vw - 80px);
+}
+.styled-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+section.ws-section-spacing.about-us,
+section.ws-section-spacing.patner-section,
+section.ws-section-spacing.events {
+    padding-top: 44px;
+    padding-bottom: 50px;
+}
+.testimonials-slider .row.single-about {
+    max-width: calc(100% - 12px);
+    border-radius: 18px;
+}
+.testimonials-slider .about-img {
+    min-height: 190px;
+}
+.testimonials-slider .about-img img {
+    width: 148px !important;
+    height: 148px;
+    border-width: 6px;
+}
+.testimonials-slider .about-contetn {
+    padding: 18px 18px 28px;
+}
+.testimonials-slider .about-contetn h3 {
+    font-size: 24px;
+}
+.testimonials-slider .about-contetn p {
+    text-align: center;
+    line-height: 1.75;
+}
+.home-leadership-grid .row.single-about {
+    padding: 28px 18px 30px;
+    border-radius: 18px;
+}
+.home-leadership-grid .about-img {
+    margin-bottom: 18px;
+}
+.home-leadership-grid .about-img img {
+    width: 138px !important;
+    height: 138px;
+    border-width: 6px;
+}
+.home-leadership-grid .about-contetn h3 {
+    font-size: 22px;
+}
+.home-leadership-grid .about-contetn p {
+    line-height: 1.7;
+}
+.patner-content h3.title,
+.evnt-content h3.title {
+    font-size: 22px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
+    text-align: center;
+    white-space: normal;
+}
+.one-time.slick-initialized .slick-slide {
+    margin: 0 8px;
+}
+.one-time .patnet-logo {
+    min-height: 395px;
+    padding: 22px 18px;
+}
+.one-time .patent-logo-img img {
+    width: 112px;
+    height: 112px;
+}
+.one-time .patnet-logo h2 {
+    min-height: 0;
+}
+.evnt-content {
+    padding: 24px 20px;
+    text-align: center;
+}
+.evnt-slider .evetn-card {
+    min-height: 360px;
+}
+.events .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.events .col-lg-3,
+.events .col-lg-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.evnt-slider.slick-initialized .slick-list {
+    margin: 0;
+    padding: 0 0 26px;
+}
+.events .slick-prev,
+.events .slick-next {
+    width: 38px;
+    height: 38px;
+}
+.events .slick-prev {
+    left: 4px;
+}
+.events .slick-next {
+    right: 4px;
+}
+.evnt-slider .even-img img {
+    height: 170px;
+}
+.mid-socail {
+    padding: 18px 14px;
+}
+.mid-socail ul {
+    gap: 10px;
+}
+.mid-socail li,
+.mid-socail ul li {
+    padding: 14px 8px;
+    font-size: 13px;
+}
+.mid-socail ul li a img {
+    width: 62px;
+    height: 40px;
+}
+footer .footer-about,
+footer .usefull-links,
+footer .contact-us {
+    margin-bottom: 18px;
+}
 }
 
 @media(max-width: 450px){
@@ -165,6 +539,13 @@ section.ws-section-spacing.events {
     width: 100%;
     background-size: contain;
 }
+.same-section-spacing,
+.ws-section-spacing,
+.section-spacing,
+.Leadership-award {
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
 .slider-content h2 {
     color: #ffffff;
 }
@@ -176,6 +557,112 @@ section.ws-section-spacing.events {
 }
 .ws-section-spacing {
     /* padding: 0px; */
+}
+.page-title-area .page-title-content h2 {
+    font-size: 28px;
+    padding-bottom: 11px;
+}
+.page-title-area .page-title-content h2::after {
+    width: 50px;
+    height: 3px;
+}
+.patner-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    max-width: calc(100vw - 24px);
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.patner-content h3.title {
+    display: block;
+    width: auto;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px !important;
+    line-height: 1.35;
+    white-space: normal !important;
+}
+.one-time.slick-initialized .slick-list {
+    padding-left: 0;
+    padding-right: 0;
+}
+.one-time.slick-initialized .slick-slide,
+.evnt-slider.slick-initialized .slick-slide {
+    margin-left: 0;
+    margin-right: 0;
+}
+.one-time.slick-initialized .slick-slide > div,
+.evnt-slider.slick-initialized .slick-slide > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.one-time .patnet-logo,
+.evnt-slider .evetn-card {
+    width: 100%;
+    max-width: calc(100vw - 32px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-socail ul {
+    gap: 5px;
+}
+.top-socail ul li a img {
+    width: 34px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 34px;
+    height: 34px;
+}
+.about-img img {
+    width: 58% !important;
+}
+.even-img img {
+    height: 180px;
+}
+.patent-logo-img img,
+.award3rd-img img,
+.website-content.team-page img {
+    width: 104px;
+    height: 104px;
+}
+.website-content.team-page .team-page-flag {
+    top: 18px;
+    left: 18px;
+}
+.website-content.team-page .team-page-flag img {
+    width: 42px;
+    height: 28px;
+}
+.contact-us .contact-form,
+.contact-us .contact-info {
+    padding: 20px 16px;
+}
+.contact-us .form-group {
+    margin-bottom: 18px;
+}
+.map-area {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.map-area iframe {
+    height: 300px;
+}
+.mid-socail ul {
+    grid-template-columns: 1fr;
+}
+.one-time .patnet-logo {
+    min-height: 410px;
+}
+.evnt-slider .evetn-card {
+    min-height: 350px;
+}
+.events .slick-prev,
+.events .slick-next {
+    display: none !important;
 }
 }
 
